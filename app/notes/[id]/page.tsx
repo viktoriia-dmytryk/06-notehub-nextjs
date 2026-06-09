@@ -4,7 +4,7 @@ import {
   HydrationBoundary,
 } from '@tanstack/react-query';
 import { fetchNotesById } from '@/lib/api';
-import NoteDetailsClient from './NoteDetailsClient.client';
+import NoteDetailsClient from './NoteDetails.client';
 
 export default async function NoteDetailsPage({
   params,
